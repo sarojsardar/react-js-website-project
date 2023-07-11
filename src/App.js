@@ -1,9 +1,10 @@
 import React from "react";
+import TopBanner from "./components/TopBanner/TopBanner";
 
 function App() {
   return (
     <div>
-     <h1>Hello React</h1>
+      <TopBanner />
     </div>
   );
 }
